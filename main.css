@@ -1,5 +1,3 @@
-
-
 body{
   background:#ffffcc;
 }
@@ -24,7 +22,12 @@ polygon{
 polygon:hover {
   opacity: 1;
 }
-
+a{
+  text-decoration: none;
+}
+a:hover{
+ text-decoration: none;
+}
 
 #about{
   position: absolute;
@@ -53,6 +56,7 @@ polygon:hover {
   width: 100%;
   margin-top: 500px;
 }
+
 #googleMap {
   height: 400px;
   
