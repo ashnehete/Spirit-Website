@@ -1,0 +1,122 @@
+
+
+body{
+  background:#ffffcc;
+}
+
+#pattern{
+  display: none;
+}
+
+canvas{
+      position: absolute;
+}
+#logo{
+    position: absolute; 
+    width: 20%;
+    margin-left: 10vw;
+}
+polygon{
+  transition: .6s fill;
+  fill: #D3D3D3;
+  opacity: 0.5;
+}
+polygon:hover {
+  opacity: 1;
+}
+
+
+#about{
+  position: absolute;
+  margin-top: 500px;
+  width: 100%;
+
+}
+#events{
+  width: 100%;
+  position: absolute;
+  margin-top: 480px;
+}
+#events div div{
+  padding: 10px;
+}
+#events .row div:hover{
+  background-color: #c6ffb3;
+}
+#events a{
+  color: #805500;
+  text-decoration: none;
+}
+
+#contact{
+  position: absolute;
+  width: 100%;
+  margin-top: 500px;
+}
+#googleMap {
+  height: 400px;
+  
+} 
+
+.modal-header, h4, .close {
+  background-color: #cc8800;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-header, .modal-body {
+  padding: 20px 50px;
+}
+
+#player{
+    display: none;
+}
+#header{
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  #ball {
+    position: absolute;
+    width: 100%;
+    padding-top: calc(400px - 51.2%);
+  }
+}
+
+@media screen and (min-width: 481px){
+  #ball{
+      width: 480px;
+      position: absolute;
+      margin-top: 154px;
+      margin-left: calc(50% - 240px);
+  }
+}
+
+
+@media screen and (min-width: 980px) {
+
+  #header{
+    display: block;
+    position: absolute;
+    margin-top: 400px;
+    width: 100%;
+    background-color: #ffe699;
+  }
+  #header h1{
+  margin-left: 10%;
+  font-size: 45px;
+  }
+  #player{
+    display: block;
+    position: absolute;
+    margin:10px 0px 0px calc(50% + 175px);
+    width: 300px;
+  }
+}
+
+
+
+
+
