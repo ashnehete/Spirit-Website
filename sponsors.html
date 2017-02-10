@@ -1,86 +1,59 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-  	<link rel="shortcut icon" href="favicon.ico" />
-	<title>SPIRIT - Sponsors</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <title>SPIRIT - Sponsors</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
-<body onresize="grassWidth()">
-	<div id="header">
-		<h1>SPONSORS</h1>
-	</div>
-	
-	<div id="nav">
-	   <div id="grass">
-			<img src="grass.jpg" id="pattern">
-			<canvas id="myCanvas" height="400"></canvas>	
-		</div>
-		
-	    <img id="logo" src="logo.png">
-	    
-	    <figure id=ball>
-	      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 480" preserveAspectRatio="xMinYMin meet" >
-	        <image width="480" height="480" xlink:href="ball.png"></image>
-	        <a xlink:href="spirit.html">
-	            <polygon points="141,235 59,234 29,181 39,153 50,130 61,114 83,86 145,86 186,157"/>
-    	    	<text x="45" y="170" font-size="25" fill="black" >ABOUT US</text>
-	        </a>
+<body>
+<div id="header">
+</div>
 
-	        <a href="events.html">
-	            <polygon points="285,152 195,152 155,81 185,28 207,23 235,20 271,23 295,28 325,80"/>
-	            <text x="190" y="100" font-size="25" fill="black" >EVENTS</text>
-	        </a>
+<div id="nav">
+    <img id="logo" src="img/logo.png">
 
-	        <a href="contact.html">
-	            <polygon points="420,234 337,234 293,158 335,86 395,86 409,100 426,125 441,153 451,181"/> 
-	            <text x="310" y="160" font-size="25" fill="black" >CONTACT</text>
-	        	<text x="360" y="190" font-size="25" fill="black" >US</text>      
-	        </a>
+    <figure id=ball>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             viewBox="0 0 480 480" preserveAspectRatio="xMinYMin meet">
+            <image width="480" height="480" xlink:href="img/ball.png"></image>
+            <a xlink:href="index.html">
+                <text x="45" y="170" font-size="25" fill="white">ABOUT US</text>
+                <polygon points="141,235 59,234 29,181 39,153 50,130 61,114 83,86 145,86 186,157"/>
+            </a>
 
-	        <text x="155" y="255" font-size="30" fill="white">SPONSORS</text>
+            <a href="events.html">
+                <text x="190" y="100" font-size="25" fill="white">EVENTS</text>
+                <polygon points="285,152 195,152 155,81 185,28 207,23 235,20 271,23 295,28 325,80"/>
+            </a>
 
-	      </svg>
-	    </figure>
-   		<img id="player" src="player.png">		
+            <a href="contact.html">
+                <text x="310" y="160" font-size="25" fill="white">CONTACT</text>
+                <text x="360" y="190" font-size="25" fill="white">US</text>
+                <polygon points="420,234 337,234 293,158 335,86 395,86 409,100 426,125 441,153 451,181"/>
+            </a>
 
-  </div>
+            <text x="155" y="255" font-size="30" fill="white">SPONSORS</text>
+
+        </svg>
+    </figure>
+    <img id="player" src="img/player.png">
+
+</div>
 
 
-
-
-
-	<div id="about" class="container">
-		<h2>
-			Will soon be updated!
-		</h2>
-	</div>
-
-
-
-	
-<script>
-	window.onload=grassWidth();
-	function grassWidth(){
-		document.getElementById("myCanvas").width=window.innerWidth;
-		var c = document.getElementById("myCanvas");
-	    var ctx = c.getContext("2d");
-	    ctx.clearRect(0, 0, c.width, c.height); 
-	    var img = document.getElementById("pattern")
-		var pat = ctx.createPattern(img,"repeat");
-	    ctx.rect(0, 0, c.width, c.height);
-	    ctx.fillStyle = pat;
-	    ctx.fill();
-	}
-</script>	
+<div id="about" class="container">
+    <div id="content">
+        Coming Soon!
+    </div>
+</div>
 
 </body>
 </html>
