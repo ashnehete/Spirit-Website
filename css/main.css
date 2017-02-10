@@ -1,5 +1,5 @@
 body {
-    background: url(../img/bg.jpg) no-repeat center center fixed;
+    background: url(../img/x.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 #events .row div:hover {
-    background-color: #c6ffb3;
+    background-color:#ffff99;
 }
 
 #events a {
@@ -107,7 +107,7 @@ a:hover {
 }
 
 .modal-header, h4, .close {
-    background-color: #cc8800;
+    background-color:#0158A1;
     color: #fff !important;
     text-align: center;
     font-size: 30px;
@@ -141,7 +141,7 @@ a:hover {
 @media screen and (min-width: 481px) {
 
     #logo {
-        width: 40%;
+        width: 30%;
     }
 
     #ball {
