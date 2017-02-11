@@ -28,16 +28,17 @@ body {
 #fest{
     position: absolute;
     left: 5vw;
-    top: 55px;
+    top: 65px;
     color:#F3BC21;
     font-size:20px;
+    font-family: 'Raleway:600', sans-serif;
 }
 
 #moto{
     position: absolute;
     color: white;
     font-size: 25px;
-    margin-left: calc(50% - 165px);
+    margin-left: calc(50% - 175px);
     font-family: 'Permanent Marker', cursive;
     word-spacing: 20px;
 }
@@ -105,7 +106,6 @@ a:hover {
 #player {
     display: none;
 }
-
 @media screen and (max-width: 480px) {
 
     #logo {
@@ -130,10 +130,11 @@ a:hover {
     }
      #fest{
         font-size: 25px;
+        top: 60px;
     }
     #moto{
         font-size: 30px;
-        margin-left: calc(50% - 200px);
+        margin-left: calc(50% - 210px);
     }
     #ball {
         width: 480px;
